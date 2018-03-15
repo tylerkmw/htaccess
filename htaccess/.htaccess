@@ -1,0 +1,4 @@
+# Turn on Rewrite Engine
+RewriteEngine On
+
+RewriteRule ^remote-jobs-([0-9a-zA-z]+) category.php?name=$1 [NC,L]
